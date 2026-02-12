@@ -1,0 +1,67 @@
+{
+    "HEADER": {
+        "HOME": "Inici",
+        "ABOUT": "Sobre mi",
+        "SKILLS": "Habilitats",
+        "PROJECTS": "Projectes",
+        "CONTACT": "Contacte"
+    },
+    "HERO": {
+        "GREETING": "Hola! 👋 Sóc",
+        "ROLES": [
+            "Especialista en Angular",
+            "Desenvolupador Frontend"
+        ],
+        "DESCRIPTION": "Desenvolupador Frontend especialitzat en Angular, amb experiència en projectes enterprise per a Banco Santander i Air Europa. Apassionat per crear aplicacions web modernes, escalables i eficients utilitzant el stack MERN.",
+        "CTA_PROJECTS": "Veure Projectes",
+        "CTA_CONTACT": "Contactar"
+    },
+    "ABOUT": {
+        "TITLE": "Sobre Mi",
+        "TEXT_1": "Sóc <strong>Joel Montilla</strong>, desenvolupador Frontend especialitzat en <strong>Angular</strong>, actualment treballant a <strong>Plexus Tech</strong> en projectes enterprise per a clients com Banco Santander i Air Europa.",
+        "TEXT_2": "La meva trajectòria professional és única: abans de dedicar-me al desenvolupament web, vaig treballar com a <strong>Tècnic de Llums</strong> en esdeveniments de gran envergadura (Freestyle World Tour, Fira de Nadal de Barcelona, esdeveniments corporatius a ESADE) i com a <strong>Responsable de Magatzem</strong>, liderant equips i gestionant logística complexa. Aquesta experiència em va aportar habilitats incalculables en gestió de projectes, treball en equip i resolució de problemes sota pressió.",
+        "TEXT_3": "Vaig completar el <strong>Màster Full-Stack Developer a Nuclio Digital School</strong>, on domino el stack MERN (MongoDB, Express.js, React.js, Node.js), metodologies àgiles SCRUM, testing, Docker, CI/CD i desplegament en Cloud. La meva passió és crear aplicacions web escalables, eficients i amb codi net seguint les millors pràctiques de la indústria.",
+        "STATS": {
+            "EXPERIENCE": "Anys d'Experiència",
+            "PROJECTS": "Projectes Completats",
+            "SKILLS": "Tecnologies Dominades",
+            "DEDICATION": "Dedicació"
+        }
+    },
+    "SKILLS": {
+        "TITLE": "Habilitats Tècniques"
+    },
+    "PROJECTS": {
+        "TITLE": "Projectes Destacats",
+        "VIEW_PROJECT": "Veure Projecte",
+        "ITEMS": {
+            "SANTANDER": {
+                "TITLE": "Banco Santander - Gestió de Contractes",
+                "DESCRIPTION": "Sistema de gestió i manteniment de contractes bancaris. Desenvolupament de mòduls per a contratació de serveis, manteniment de dades i gestió documental per a un dels bancs més grans d'Europa."
+            },
+            "AIREUROPA": {
+                "TITLE": "Air Europa - Portal Corporatiu",
+                "DESCRIPTION": "Desenvolupament i manteniment d'aplicacions web per a l'aerolínia Air Europa. Implementació de funcionalitats per a gestió de vols, reserves i serveis al client."
+            },
+            "TRAILNEST": {
+                "TITLE": "TrailNest",
+                "DESCRIPTION": "Aplicació on crear i pujar rutes de senderisme personalitzades per l'usuari, podent així qualificar-les i registrar-les per diferents nivells."
+            }
+        }
+    },
+    "CONTACT": {
+        "TITLE": "Contacte",
+        "SUBTITLE": "Tens un projecte en ment?",
+        "DESCRIPTION": "Estic sempre obert a discutir nous projectes, idees creatives o oportunitats per formar part del teu equip. No dubtis a contactar-me.",
+        "LABELS": {
+            "EMAIL": "Email",
+            "LINKEDIN": "LinkedIn",
+            "GITHUB": "GitHub"
+        }
+    },
+    "FOOTER": {
+        "TAGLINE": "Construint el futur, una línia de codi a la vegada.",
+        "FOLLOW_ME": "Segueix-me",
+        "MADE_WITH": "Fet amb ❤️ i Angular"
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "HEADER": {
+        "HOME": "Inicio",
+        "ABOUT": "Sobre mí",
+        "SKILLS": "Habilidades",
+        "PROJECTS": "Proyectos",
+        "CONTACT": "Contacto"
+    },
+    "HERO": {
+        "GREETING": "¡Hola! 👋 Soy",
+        "ROLES": [
+            "Especialista en Angular",
+            "Desarrollador Frontend"
+        ],
+        "DESCRIPTION": "Desarrollador Frontend especializado en Angular, con experiencia en proyectos enterprise para Banco Santander y Air Europa. Apasionado por crear aplicaciones web modernas, escalables y eficientes utilizando el stack MERN.",
+        "CTA_PROJECTS": "Ver Proyectos",
+        "CTA_CONTACT": "Contactar"
+    },
+    "ABOUT": {
+        "TITLE": "Sobre Mí",
+        "TEXT_1": "Soy <strong>Joel Montilla</strong>, desarrollador Frontend especializado en <strong>Angular</strong>, actualmente trabajando en <strong>Plexus Tech</strong> en proyectos enterprise para clientes como Banco Santander y Air Europa.",
+        "TEXT_2": "Mi trayectoria profesional es única: antes de dedicarme al desarrollo web, trabajé como <strong>Técnico de Luces</strong> en eventos de gran envergadura (Freestyle World Tour, Feria de Navidad de Barcelona, eventos corporativos en ESADE) y como <strong>Responsable de Almacén</strong>, liderando equipos y gestionando logística compleja. Esta experiencia me aportó habilidades invaluables en gestión de proyectos, trabajo en equipo y resolución de problemas bajo presión.",
+        "TEXT_3": "Completé el <strong>Master Full-Stack Developer en Nuclio Digital School</strong>, donde domino el stack MERN (MongoDB, Express.js, React.js, Node.js), metodologías ágiles SCRUM, testing, Docker, CI/CD y despliegue en Cloud. Mi pasión es crear aplicaciones web escalables, eficientes y con código limpio siguiendo las mejores prácticas de la industria.",
+        "STATS": {
+            "EXPERIENCE": "Años de Experiencia",
+            "PROJECTS": "Proyectos Completados",
+            "SKILLS": "Tecnologías Dominadas",
+            "DEDICATION": "Dedicación"
+        }
+    },
+    "SKILLS": {
+        "TITLE": "Habilidades Técnicas"
+    },
+    "PROJECTS": {
+        "TITLE": "Proyectos Destacados",
+        "VIEW_PROJECT": "Ver Proyecto",
+        "ITEMS": {
+            "SANTANDER": {
+                "TITLE": "Banco Santander - Gestión de Contratos",
+                "DESCRIPTION": "Sistema de gestión y mantenimiento de contratos bancarios. Desarrollo de módulos para contratación de servicios, mantenimiento de datos y gestión documental para uno de los bancos más grandes de Europa."
+            },
+            "AIREUROPA": {
+                "TITLE": "Air Europa - Portal Corporativo",
+                "DESCRIPTION": "Desarrollo y mantenimiento de aplicaciones web para la aerolínea Air Europa. Implementación de funcionalidades para gestión de vuelos, reservas y servicios al cliente."
+            },
+            "TRAILNEST": {
+                "TITLE": "TrailNest",
+                "DESCRIPTION": "Aplicación donde crear y subir rutas de senderismo personalizadas por el usuario, pudiendo así calificarlas y registrarlas por diferentes niveles."
+            }
+        }
+    },
+    "CONTACT": {
+        "TITLE": "Contacto",
+        "SUBTITLE": "¿Tienes un proyecto en mente?",
+        "DESCRIPTION": "Estoy siempre abierto a discutir nuevos proyectos, ideas creativas o oportunidades para formar parte de tu equipo. No dudes en contactarme.",
+        "LABELS": {
+            "EMAIL": "Email",
+            "LINKEDIN": "LinkedIn",
+            "GITHUB": "GitHub"
+        }
+    },
+    "FOOTER": {
+        "TAGLINE": "Construyendo el futuro, una línea de código a la vez.",
+        "FOLLOW_ME": "Sígueme",
+        "MADE_WITH": "Hecho con ❤️ y Angular"
+    }
+}

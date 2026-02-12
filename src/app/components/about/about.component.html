@@ -1,34 +1,18 @@
 <section id="about" class="about">
     <div class="container">
-        <h2 class="section-title">Sobre Mí</h2>
+        <h2 class="section-title">{{ 'ABOUT.TITLE' | translate }}</h2>
 
         <div class="about-content">
             <div class="about-text">
-                <p>
-                    Soy <strong>Joel Montilla</strong>, desarrollador Frontend especializado en
-                    <strong>Angular</strong>,
-                    actualmente trabajando en <strong>Plexus Tech</strong> en proyectos enterprise para clientes como
-                    Banco Santander y Air Europa.
-                </p>
-                <p>
-                    Mi trayectoria profesional es única: antes de dedicarme al desarrollo web, trabajé como
-                    <strong>Técnico de Luces</strong> en eventos de gran envergadura (Freestyle World Tour, Feria de
-                    Navidad de Barcelona, eventos corporativos en ESADE) y como <strong>Responsable de Almacén</strong>,
-                    liderando equipos y gestionando logística compleja. Esta experiencia me aportó habilidades
-                    invaluables en gestión de proyectos, trabajo en equipo y resolución de problemas bajo presión.
-                </p>
-                <p>
-                    Completé el <strong>Master Full-Stack Developer en Nuclio Digital School</strong>, donde domino
-                    el stack MERN (MongoDB, Express.js, React.js, Node.js), metodologías ágiles SCRUM, testing,
-                    Docker, CI/CD y despliegue en Cloud. Mi pasión es crear aplicaciones web escalables, eficientes
-                    y con código limpio siguiendo las mejores prácticas de la industria.
-                </p>
+                <p [innerHTML]="'ABOUT.TEXT_1' | translate"></p>
+                <p [innerHTML]="'ABOUT.TEXT_2' | translate"></p>
+                <p [innerHTML]="'ABOUT.TEXT_3' | translate"></p>
             </div>
 
             <div class="stats-grid">
                 <div class="stat-card" *ngFor="let stat of stats">
                     <h3 class="stat-number">{{ stat.number }}</h3>
-                    <p class="stat-label">{{ stat.label }}</p>
+                    <p class="stat-label">{{ 'ABOUT.STATS.' + stat.translationKey | translate }}</p>
                 </div>
             </div>
         </div>

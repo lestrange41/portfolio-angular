@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-header',
@@ -8,8 +9,18 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
     isMenuOpen = false;
 
+    constructor(private translate: TranslateService) { }
+
+    get currentLang(): string {
+        return this.translate.currentLang || 'es';
+    }
+
     toggleMenu() {
         this.isMenuOpen = !this.isMenuOpen;
+    }
+
+    changeLanguage(lang: string) {
+        this.translate.use(lang);
     }
 
     scrollToSection(sectionId: string) {

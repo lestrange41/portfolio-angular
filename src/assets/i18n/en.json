@@ -1,0 +1,67 @@
+{
+    "HEADER": {
+        "HOME": "Home",
+        "ABOUT": "About me",
+        "SKILLS": "Skills",
+        "PROJECTS": "Projects",
+        "CONTACT": "Contact"
+    },
+    "HERO": {
+        "GREETING": "Hi! 👋 I am",
+        "ROLES": [
+            "Angular Specialist",
+            "Frontend Developer"
+        ],
+        "DESCRIPTION": "Frontend Developer specialized in Angular, with experience in enterprise projects for Banco Santander and Air Europa. Passionate about creating modern, scalable and efficient web applications using the MERN stack.",
+        "CTA_PROJECTS": "View Projects",
+        "CTA_CONTACT": "Contact"
+    },
+    "ABOUT": {
+        "TITLE": "About Me",
+        "TEXT_1": "I am <strong>Joel Montilla</strong>, Frontend developer specialized in <strong>Angular</strong>, currently working at <strong>Plexus Tech</strong> on enterprise projects for clients such as Banco Santander and Air Europa.",
+        "TEXT_2": "My professional path is unique: before dedicating myself to web development, I worked as a <strong>Lighting Technician</strong> in large-scale events (Freestyle World Tour, Barcelona Christmas Fair, corporate events at ESADE) and as a <strong>Warehouse Manager</strong>, leading teams and managing complex logistics. This experience provided me with invaluable skills in project management, teamwork and problem solving under pressure.",
+        "TEXT_3": "I completed the <strong>Master Full-Stack Developer at Nuclio Digital School</strong>, where I mastered the MERN stack (MongoDB, Express.js, React.js, Node.js), SCRUM agile methodologies, testing, Docker, CI/CD and Cloud deployment. My passion is to create scalable, efficient web applications with clean code following industry best practices.",
+        "STATS": {
+            "EXPERIENCE": "Years of Experience",
+            "PROJECTS": "Projects Completed",
+            "SKILLS": "Technologies Mastered",
+            "DEDICATION": "Dedication"
+        }
+    },
+    "SKILLS": {
+        "TITLE": "Technical Skills"
+    },
+    "PROJECTS": {
+        "TITLE": "Featured Projects",
+        "VIEW_PROJECT": "View Project",
+        "ITEMS": {
+            "SANTANDER": {
+                "TITLE": "Banco Santander - Contract Management",
+                "DESCRIPTION": "Banking contract management and maintenance system. Development of modules for service contracting, data maintenance and document management for one of the largest banks in Europe."
+            },
+            "AIREUROPA": {
+                "TITLE": "Air Europa - Corporate Portal",
+                "DESCRIPTION": "Development and maintenance of web applications for the airline Air Europa. Implementation of functionalities for flight management, bookings and customer services."
+            },
+            "TRAILNEST": {
+                "TITLE": "TrailNest",
+                "DESCRIPTION": "Application to create and upload custom hiking routes, allowing users to rate and record them by different levels."
+            }
+        }
+    },
+    "CONTACT": {
+        "TITLE": "Contact",
+        "SUBTITLE": "Have a project in mind?",
+        "DESCRIPTION": "I am always open to discussing new projects, creative ideas or opportunities to be part of your team. Don't hesitate to contact me.",
+        "LABELS": {
+            "EMAIL": "Email",
+            "LINKEDIN": "LinkedIn",
+            "GITHUB": "GitHub"
+        }
+    },
+    "FOOTER": {
+        "TAGLINE": "Building the future, one line of code at a time.",
+        "FOLLOW_ME": "Follow me",
+        "MADE_WITH": "Made with ❤️ and Angular"
+    }
+}

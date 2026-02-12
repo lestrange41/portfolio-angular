@@ -7,9 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
     stats = [
-        { number: '2+', label: 'Años de Experiencia' },
-        { number: '10+', label: 'Proyectos Completados' },
-        { number: '15+', label: 'Tecnologías Dominadas' },
-        { number: '100%', label: 'Dedicación' }
+        { number: '2+', label: 'Años de Experiencia', translationKey: 'EXPERIENCE' },
+        { number: '10+', label: 'Proyectos Completados', translationKey: 'PROJECTS' },
+        { number: '15+', label: 'Tecnologías Dominadas', translationKey: 'SKILLS' },
+        { number: '100%', label: 'Dedicación', translationKey: 'DEDICATION' }
     ];
 }

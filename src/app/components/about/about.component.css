@@ -31,7 +31,7 @@
     line-height: 1.8;
 }
 
-.about-text strong {
+.about-text ::ng-deep strong {
     color: var(--primary-light);
     font-weight: 600;
 }

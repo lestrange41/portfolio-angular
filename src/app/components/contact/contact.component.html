@@ -1,22 +1,22 @@
 <section id="contact" class="contact bg-gradient">
     <div class="container">
-        <h2 class="section-title">Contacto</h2>
+        <h2 class="section-title">{{ 'CONTACT.TITLE' | translate }}</h2>
 
         <div class="contact-content">
             <div class="contact-text">
-                <h3>¿Tienes un proyecto en mente?</h3>
+                <h3>{{ 'CONTACT.SUBTITLE' | translate }}</h3>
                 <p>
-                    Estoy siempre abierto a discutir nuevos proyectos, ideas creativas
-                    o oportunidades para formar parte de tu equipo. No dudes en contactarme.
+                    {{ 'CONTACT.DESCRIPTION' | translate }}
                 </p>
             </div>
 
             <div class="contact-grid">
                 <a *ngFor="let info of contactInfo" [href]="info.link" class="contact-card" target="_blank"
                     rel="noopener noreferrer">
-                    <img class="contact-icon" [src]="info.icon" [alt]="info.label">
+                    <img class="contact-icon" [src]="info.icon"
+                        [alt]="'CONTACT.LABELS.' + info.translationKey | translate">
                     <div class="contact-details">
-                        <h4 class="contact-label">{{ info.label }}</h4>
+                        <h4 class="contact-label">{{ 'CONTACT.LABELS.' + info.translationKey | translate }}</h4>
                         <p class="contact-value">{{ info.value }}</p>
                     </div>
                 </a>

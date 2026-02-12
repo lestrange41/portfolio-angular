@@ -1,22 +1,20 @@
 <section id="hero" class="hero bg-gradient">
     <div class="container hero-content">
         <div class="hero-text fade-in-up">
-            <p class="greeting">¡Hola! 👋 Soy</p>
+            <p class="greeting">{{ 'HERO.GREETING' | translate }}</p>
             <h1 class="name">Joel Montilla</h1>
             <div class="role-container">
                 <h2 class="role">{{ displayedText }}<span class="cursor">|</span></h2>
             </div>
             <p class="description">
-                Desarrollador Frontend especializado en Angular, con experiencia en proyectos enterprise
-                para Banco Santander y Air Europa. Apasionado por crear aplicaciones web modernas,
-                escalables y eficientes utilizando el stack MERN.
+                {{ 'HERO.DESCRIPTION' | translate }}
             </p>
             <div class="cta-buttons">
                 <button class="btn btn-primary" (click)="scrollToProjects()">
-                    Ver Proyectos
+                    {{ 'HERO.CTA_PROJECTS' | translate }}
                 </button>
                 <button class="btn btn-outline" (click)="scrollToContact()">
-                    Contactar
+                    {{ 'HERO.CTA_CONTACT' | translate }}
                 </button>
             </div>
         </div>
