@@ -1,0 +1,24 @@
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3 class="footer-logo">&lt;JoelMontilla/&gt;</h3>
+                <p class="footer-tagline">Construyendo el futuro, una línea de código a la vez.</p>
+            </div>
+
+            <div class="footer-social">
+                <h4>Sígueme</h4>
+                <div class="social-links">
+                    <a *ngFor="let link of socialLinks" [href]="link.url" class="social-link" target="_blank"
+                        rel="noopener noreferrer" [title]="link.name">
+                        <span>{{ link.icon }}</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; {{ currentYear }} Joel Montilla. Hecho con ❤️ y Angular</p>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,55 @@
+<section id="hero" class="hero bg-gradient">
+    <div class="container hero-content">
+        <div class="hero-text fade-in-up">
+            <p class="greeting">¡Hola! 👋 Soy</p>
+            <h1 class="name">Joel Montilla</h1>
+            <div class="role-container">
+                <h2 class="role">{{ displayedText }}<span class="cursor">|</span></h2>
+            </div>
+            <p class="description">
+                Desarrollador Frontend especializado en Angular, con experiencia en proyectos enterprise
+                para Banco Santander y Air Europa. Apasionado por crear aplicaciones web modernas,
+                escalables y eficientes utilizando el stack MERN.
+            </p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary" (click)="scrollToProjects()">
+                    Ver Proyectos
+                </button>
+                <button class="btn btn-outline" (click)="scrollToContact()">
+                    Contactar
+                </button>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="code-window">
+                <div class="window-header">
+                    <div class="window-dots">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <span class="window-title">joel.montilla.component.ts</span>
+                </div>
+                <div class="code-content">
+                    <pre><code><span class="keyword">import</span> {{ '{' }} Component {{ '}' }} <span class="keyword">from</span> <span class="string">'&#64;angular/core'</span>;
+
+<span class="decorator">&#64;Component</span>({{ '{' }}
+  <span class="property">selector</span>: <span class="string">'joel.montilla'</span>,
+  <span class="property">templateUrl</span>: <span class="string">'./joel.montilla.html'</span>
+{{ '}' }})
+<span class="keyword">export class</span> <span class="class">JoelMontillaComponent</span> {{ '{' }}
+  <span class="property">skills</span> = [<span class="string">'Angular'</span>, <span class="string">'TypeScript'</span>, <span class="string">'RxJS'</span>];
+  <span class="property">passion</span> = <span class="string">'Frontend Development'</span>;
+{{ '}' }}</code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-indicator">
+        <div class="mouse">
+            <div class="wheel"></div>
+        </div>
+    </div>
+</section>
