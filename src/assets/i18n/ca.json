@@ -19,7 +19,7 @@
     "ABOUT": {
         "TITLE": "Sobre Mi",
         "TEXT_1": "Sóc <strong>Joel Montilla</strong>, desenvolupador Frontend especialitzat en <strong>Angular</strong>, actualment treballant a <strong>Plexus Tech</strong> en projectes enterprise per a clients com Banco Santander i Air Europa.",
-        "TEXT_2": "La meva trajectòria professional és única: abans de dedicar-me al desenvolupament web, vaig treballar com a <strong>Tècnic de Llums</strong> en esdeveniments de gran envergadura (Freestyle World Tour, Fira de Nadal de Barcelona, esdeveniments corporatius a ESADE) i com a <strong>Responsable de Magatzem</strong>, liderant equips i gestionant logística complexa. Aquesta experiència em va aportar habilitats incalculables en gestió de projectes, treball en equip i resolució de problemes sota pressió.",
+        "TEXT_2": "La meva trajectòria professional: abans de dedicar-me al desenvolupament web, vaig treballar com a <strong>Tècnic de Llums</strong> en esdeveniments de gran envergadura (Freestyle World Tour, Fira de Nadal de Barcelona, esdeveniments corporatius a ESADE) i com a <strong>Responsable de Magatzem</strong>, liderant equips i gestionant logística complexa. Aquesta experiència em va aportar habilitats incalculables en gestió de projectes, treball en equip i resolució de problemes sota pressió.",
         "TEXT_3": "Vaig completar el <strong>Màster Full-Stack Developer a Nuclio Digital School</strong>, on domino el stack MERN (MongoDB, Express.js, React.js, Node.js), metodologies àgiles SCRUM, testing, Docker, CI/CD i desplegament en Cloud. La meva passió és crear aplicacions web escalables, eficients i amb codi net seguint les millors pràctiques de la indústria.",
         "STATS": {
             "EXPERIENCE": "Anys d'Experiència",
