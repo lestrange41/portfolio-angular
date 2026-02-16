@@ -9,8 +9,8 @@ export class FooterComponent {
     currentYear = new Date().getFullYear();
 
     socialLinks = [
-        { name: 'GitHub', icon: '🐙', url: 'https://github.com/lestrange41' },
-        { name: 'LinkedIn', icon: '💼', url: 'https://linkedin.com/in/joelmontilla' },
-        { name: 'Email', icon: '📧', url: 'mailto:joelmontillaher@gmail.com' }
+        { name: 'Email', icon: 'assets/icons/gmail-svgrepo-com1.svg', url: 'mailto:joelmontillaher@gmail.com' },
+        { name: 'LinkedIn', icon: 'assets/icons/linkedin-svgrepo.svg', url: 'https://linkedin.com/in/joelmontilla' },
+        { name: 'GitHub', icon: 'assets/icons/github-142-svgrepo-com.svg', url: 'https://github.com/lestrange41' }      
     ];
 }
